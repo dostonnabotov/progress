@@ -22,6 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("tagList", tagList);
 
   // passthrough copy
+  eleventyConfig.addPassthroughCopy("./src/assets/js/");
   eleventyConfig.addPassthroughCopy("./src/assets/img/");
   eleventyConfig.addPassthroughCopy("./src/assets/fonts/");
 
