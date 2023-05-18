@@ -1,8 +1,4 @@
-body {
-  font-family: system-ui, sans-serif;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
+@use "./base";
+@use "./components";
+@use "./layouts";
+@use "./utilities";

@@ -24,9 +24,10 @@ module.exports = function (eleventyConfig) {
   // passthrough copy
   eleventyConfig.addPassthroughCopy("./src/assets/js/");
   eleventyConfig.addPassthroughCopy("./src/assets/img/");
-  eleventyConfig.addPassthroughCopy("./src/assets/fonts/");
+  eleventyConfig.addPassthroughCopy("./src/assets/icons/");
 
   // Watch CSS files for changes
+  eleventyConfig.addWatchTarget("./src/assets/sass");
   eleventyConfig.setBrowserSyncConfig({
     files: "./dist/assets/css/**/*.css",
   });

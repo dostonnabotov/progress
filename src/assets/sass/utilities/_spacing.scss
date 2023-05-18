@@ -1,0 +1,35 @@
+.region {
+  padding-block: var(--region-space, 4rem);
+
+  &[data-region="sm"] {
+    --region-space: 2rem;
+  }
+
+  &[data-region="lg"] {
+    --region-space: 6rem;
+  }
+}
+
+.flow-content {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+}
+
+:is(.flow-content, .grid) {
+  &[data-spacing="sm"] {
+    gap: 0.5rem;
+  }
+
+  &[data-spacing="md"] {
+    gap: 1rem;
+  }
+
+  &[data-spacing="lg"] {
+    gap: 2rem;
+  }
+
+  &[data-spacing="xl"] {
+    gap: 4rem;
+  }
+}

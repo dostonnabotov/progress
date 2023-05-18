@@ -1,0 +1,21 @@
+.text-center {
+  text-align: center;
+}
+
+h1,
+.main-title {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
+}
+
+h2,
+.section-title {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-bold);
+}
+
+h3,
+.card-title {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}

@@ -1,0 +1,16 @@
+// .numbering {
+//   border: 1px solid #444;
+// }
+
+.numbering__amount {
+  font-size: var(--fs-700);
+  line-height: 1.1;
+  font-weight: var(--fw-bold);
+}
+
+.numbering__text {
+  display: block;
+  font-size: var(--fs-500);
+  font-weight: var(--fw-bold);
+  color: #c7c7c7;
+}
